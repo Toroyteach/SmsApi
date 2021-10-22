@@ -8,7 +8,7 @@ clone the repo to your server
 Copy the sql script to your database server to create the database and tables
 
 on the /inc/config.php change the USE_DB to 1 if you want to use the database
-Note for good recording its advised to use database.
+Note for good recording its advised to use database. It is currently set to 0 by default
 
 
 Make a post request to the url ./Interview/index.php with the number and the message you would like to send
