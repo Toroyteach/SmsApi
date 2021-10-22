@@ -39,6 +39,12 @@ class SmsModel extends Database
             
             
             if($httpcode == '202'){
+
+                if($this->useDb != 1){
+
+                    return true;
+
+                }
                 
                 $body = substr($apiResponse, $header_size);
 
@@ -69,6 +75,12 @@ class SmsModel extends Database
     //updates the sms request with request from callback
     public function updateSms($data)
     {
+
+        if($this->useDb != 1){
+
+            return true;
+
+        }
 
         $messageid = $data['messageid'];
         $requestid = $data['requestid'];

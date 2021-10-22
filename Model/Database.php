@@ -4,6 +4,7 @@ class Database
 {
     protected $connection = null;
     protected $key = CLICKATELL_KEY;
+    protected $useDb = USE_DB; 
  
     public function __construct()
     {

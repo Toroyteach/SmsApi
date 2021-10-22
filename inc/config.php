@@ -6,6 +6,7 @@ define("DB_HOST", "localhost");
 define("DB_USERNAME", "root");
 define("DB_PASSWORD", "");
 define("DB_DATABASE_NAME", "smsapi_db");
-define("CLICKATELL_KEY", "3BrbB-UES6ymi6OpEAMdHg==")
+define("CLICKATELL_KEY", "3BrbB-UES6ymi6OpEAMdHg==");
+define("USE_DB", 0);
 
 ?>
