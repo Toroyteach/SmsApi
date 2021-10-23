@@ -21,7 +21,7 @@ class SmsCLass extends BaseClass implements SmsContract
 
             if(empty($msg) && $client){
 
-                var_dump('Errror processing your reqeust');
+                echo 'Errror processing your reqeust';
                 exit();
             }
 
